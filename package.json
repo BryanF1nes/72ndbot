@@ -2,14 +2,17 @@
   "name": "72ndbot",
   "version": "1.0.0",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node src/index.js",
+    "deploycmd": "node src/deploy-commands.js"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
     "discord.js": "^14.15.3"
+  },
+  "devDependencies": {
+    "eslint": "^9.7.0"
   }
 }
